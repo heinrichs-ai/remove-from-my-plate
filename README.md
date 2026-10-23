@@ -39,11 +39,16 @@ npx skills add heinrichs-ai/remove-from-my-plate
 For Claude, download the [skill ZIP](https://github.com/heinrichs-ai/remove-from-my-plate/releases/latest/download/remove-from-my-plate.zip).
 Upload it through Customize → Skills.
 
-For Codex, Cursor, or Copilot, copy `SKILL.md` into `~/.agents/skills/remove-from-my-plate/`.
+For Codex, Cursor, or Copilot, copy `SKILL.md` and the complete `references/` folder into `~/.agents/skills/remove-from-my-plate/`.
 For Claude Code, use `~/.claude/skills/remove-from-my-plate/`.
 
 Use the same skill in a project by placing its folder under the project's skills directory.
 Automatic selection depends on the client and model. You can also ask your assistant to use “Remove from my plate”.
+
+### Skill files
+
+`SKILL.md` is the entrypoint. Keep its `references/` folder beside it.
+The assistant reads setup, delegation, building, automation, email, collaboration, and inbox guidance only when needed.
 
 ### Try it
 
@@ -90,11 +95,16 @@ npx skills add heinrichs-ai/remove-from-my-plate
 No Claude, baixe o [ZIP da skill](https://github.com/heinrichs-ai/remove-from-my-plate/releases/latest/download/remove-from-my-plate.zip).
 Envie o arquivo em Customize → Skills.
 
-No Codex, Cursor ou Copilot, copie `SKILL.md` para `~/.agents/skills/remove-from-my-plate/`.
+No Codex, Cursor ou Copilot, copie `SKILL.md` e toda a pasta `references/` para `~/.agents/skills/remove-from-my-plate/`.
 No Claude Code, use `~/.claude/skills/remove-from-my-plate/`.
 
 Para usar em um projeto, coloque a pasta da skill no diretório de skills desse projeto.
 A ativação automática depende do aplicativo e do modelo. Você também pode pedir ao assistente para usar “Remove from my plate”.
+
+### Arquivos da skill
+
+`SKILL.md` é o ponto de entrada. Mantenha a pasta `references/` ao lado dele.
+O assistente consulta as instruções de configuração, delegação, agentes, automações, emails, colaboração e pendências conforme a tarefa.
 
 ### Experimentar
 
