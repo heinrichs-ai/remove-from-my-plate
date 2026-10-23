@@ -20,12 +20,15 @@ It does not run after a session closes. Continuing work needs an authorized hage
 
 ### Connect hagents
 
-You need a hagents account and an assistant that supports skills and remote MCP connections.
-Agent runs use your hagents balance. This repository contains instructions, not account access.
+Install the skill first, then ask your assistant: “Set up hagents and help me take this task off my plate.”
 
-1. Add `https://dash.hagents.app/mcp` as a remote MCP server in your assistant.
-2. Sign in through OAuth and choose your workspace and permissions.
-3. Install the skill using one of the options below.
+The skill checks your connection and helps add the remote MCP server when needed.
+It guides sign-in or account creation, workspace selection, and OAuth consent before returning to your task.
+Your assistant can configure supported clients when it has permission. Otherwise, it shows the setup steps.
+Enter passwords and verification codes only in the sign-in page.
+
+The server URL is `https://dash.hagents.app/mcp`. No local hagents server or API key is needed.
+Some new workspaces require approval. Agent runs use your hagents balance.
 
 ### Install
 
@@ -67,12 +70,16 @@ Ela não continua executando após o fim da conversa. Para isso, é preciso ativ
 
 ### Conectar o hagents
 
-Você precisa de uma conta no hagents e de um assistente compatível com skills e conexões MCP remotas.
-As execuções dos agentes usam seu saldo no hagents. Este repositório contém instruções, sem acesso à sua conta.
+Instale a skill e peça ao assistente: “Configure o hagents e me ajude a delegar esta tarefa.”
 
-1. Adicione `https://dash.hagents.app/mcp` como servidor MCP remoto no seu assistente.
-2. Entre pela conexão OAuth e escolha o espaço de trabalho e as permissões.
-3. Instale a skill conforme as opções abaixo.
+A skill verifica a conexão e ajuda a adicionar o servidor MCP remoto quando necessário.
+Ela orienta a entrada ou criação da conta, a escolha do espaço de trabalho e a autorização OAuth.
+Depois, o assistente retoma sua tarefa.
+Ele configura aplicativos compatíveis quando tem permissão. Caso contrário, mostra os passos necessários.
+Digite senhas e códigos de verificação apenas na página de acesso.
+
+O endereço do servidor é `https://dash.hagents.app/mcp`. Não é preciso instalar um servidor local nem informar uma chave de API.
+Alguns espaços de trabalho novos precisam de aprovação. As execuções dos agentes usam seu saldo no hagents.
 
 ### Instalar
 
